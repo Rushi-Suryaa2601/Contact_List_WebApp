@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Inter&family=Kenia&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: white;
+    max-zoom: 50%;
+    
+    /* margin-top: 20px; */
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background: rgb(121,225,50);
+background: linear-gradient(90deg, rgba(121,225,50,1) 0%, rgba(76,190,137,1) 58%);
+    padding: 2em;
+    align-items: center;
+   
+}
+
+.container{
+    max-width: 21vw;
+    background-color: #313438;
+    min-height: 50vh;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+.contact-search{
+    font-size: 1.2em;
+    padding: 2px;
+    border-radius: 100px;
+    border: 1px solid green;
+    outline: none;
+    
+}
+
+i{
+    font-size: 1.5em;
+
+}
+.contact-name{
+    font-size: 1.2em;
+}
+ul{
+    width: 100%;
+}
+hr{
+    border: 2px solid #414b43;
+}
+/* section ul li{
+    list-style:inside;
+    list-style-type: none;
+} */
+
+.list-item{
+    list-style: none;
+}
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: 0.2em 0.5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #751848;
+    font-size: .8em;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: rgb(109, 104, 104);
+}
+.text{
+    padding-left: 1em;
+}

@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="{% static "/style_delete.css" %}">
+    <title>Contact Profile Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="{% url "edit_contact" contacts.id %}">
+          <i class="fas fa-arrow-alt-circle-left back-btn"></i>
+        </a>
+
+        <div class="hero_info">
+          <h1 class="name">{{contacts.full_name|title}}</h1>
+          <p class="relationship">{{contacts.relationship|title}}</p>
+        </div>
+      </header>
+
+      <section class="button-container">
+        <p>Are You sure you eant to delete this contact?</p>
+        <form method="POSt">
+            {% csrf_token %}
+          <div class="update-contact">
+            <i class="fas fa-trash linear-gradient"></i>
+            <button class="button">Delete Contact</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
