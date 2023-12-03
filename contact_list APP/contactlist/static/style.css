@@ -31,11 +31,12 @@ background: linear-gradient(90deg, rgba(121,225,50,1) 0%, rgba(76,190,137,1) 58%
 }
 
 .container{
-    max-width: 21vw;
+    max-width: 20vw;
     background-color: #313438;
-    min-height: 50vh;
+    min-height: 100vh;
     margin: 0 auto;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    zoom: 116%;
 }
 
 .contact-search{

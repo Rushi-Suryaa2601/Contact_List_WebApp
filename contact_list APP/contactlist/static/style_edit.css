@@ -8,10 +8,12 @@ body{
 }
 
 .container{
-	max-width: 21vw;
-	margin: 0 auto;
-	background-color: #313438;
-	min-height: 50vh;
+	max-width: 20vw;
+    background-color: #313438;
+    min-height: 100vh;
+    margin: 0 auto;
+    /* overflow-y: scroll; */
+    zoom: 116%;
 }
 
 
