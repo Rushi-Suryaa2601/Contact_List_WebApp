@@ -1,4 +1,5 @@
 # Contact_List_WebApp
+This Web_app developed using python django framework and in frontend  i am using HTML,CSS.
 
 
 ![1](https://github.com/Rushi-Suryaa2601/Contact_List_WebApp/assets/151115201/74e21ed9-2cfd-40ff-8ec6-701e7784cfed)
