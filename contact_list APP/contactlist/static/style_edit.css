@@ -10,7 +10,7 @@ body{
 .container{
 	max-width: 20vw;
     background-color: #313438;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0 auto;
     /* overflow-y: scroll; */
     zoom: 116%;
@@ -24,7 +24,7 @@ a{
 
 .hero{
 	color: white;
-	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);	
+	background:  linear-gradient(90deg, rgba(121,225,50,1) 0%, rgba(76,190,137,1) 58%);	
 	padding: 2em 0; 
 }
 
@@ -36,6 +36,7 @@ a{
 
 .contact-info{
 	padding: 1.5em;
+	font-size: 20px;
 }
 
 
@@ -43,6 +44,7 @@ a{
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	font-size: 30px;
 }
 
 .relationship-hero{
@@ -52,7 +54,7 @@ a{
 	border-radius: 100px;
 	border-top-left-radius: 0;
 	margin: 0;
-	background-color: #75A85E;
+	background-color: #79de4b;
 }
 
 

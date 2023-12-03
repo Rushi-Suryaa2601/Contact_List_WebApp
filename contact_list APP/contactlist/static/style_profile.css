@@ -26,6 +26,7 @@ body{
     background: rgb(121,225,50);
     background: linear-gradient(90deg, rgba(121,225,50,1) 0%, rgba(76,190,137,1) 58%);
     padding: 2em 0;
+    font-size: 26px;
     
    
 }
@@ -65,7 +66,9 @@ a{
 
 .contact-info{
     padding: 2em 1.5em;
+    font-size: 25px;
 }
+
 
 .info-line{
     width: 90%;
@@ -97,4 +100,5 @@ p{
 .edit-contact{
     padding: 1.5em 3.5em;
     text-align: center;
+    font-size: 30px;
 }

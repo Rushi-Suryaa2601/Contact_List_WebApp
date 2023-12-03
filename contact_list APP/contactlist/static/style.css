@@ -27,6 +27,7 @@ body{
 background: linear-gradient(90deg, rgba(121,225,50,1) 0%, rgba(76,190,137,1) 58%);
     padding: 2em;
     align-items: center;
+    font-size: 26px;
    
 }
 
@@ -92,6 +93,7 @@ a{
     align-items: center;
     padding: 1em 1.5em;
     transition: 0.3s;
+    font-size: 25px;
 }
 
 .contact-section:hover{
